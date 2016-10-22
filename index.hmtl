@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Author: Leonardo Alcantar
+Website: RitzSystems.com
+Purpose: Tutorial
+Page: Homepage (Index)
+Date: 10/15/16
+-->
+
+<head>
+	<title>Free Template | Template Tutorial by Ritz Systems</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<!--Navigation-->
+	<header id="header" class="clear">
+		<div id="logo">
+			<a href="index.html"><img src="images/logo.png" alt="Company Logo"></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a id="active" href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="#">About</a></li>
+				<li class="last"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- content -->
+	<div id="container" class="clear">
+
+		<!-- Landing Picture -->
+		<section>
+			<h1>Duluth's top-ranked Eco-Friendly landscaping service</h1>
+			<a href="services.html"><img src="images/duluthPhoto.jpg" alt="Home Grown Lawn Landing Photo"></a>
+		</section>
+
+		<!-- Service Images -->
+		<div id="homepage">
+			<section id="services" class="clear">
+				<h3>&#8202;</h3>
+				<article class="serviceBox">
+					<h3>Commercial</h3>
+					<figure>
+						<a href="services.html"><img src="images/business.jpg" width="290" height="180" alt=""></a>
+					</figure>
+				</article>
+				<article class="serviceBox">
+					<h3>Residential</h3>
+					<figure>
+						<a href="services.html"><img src="images/residential.jpg" width="290" height="180" alt=""></a>
+					</figure>
+				</article>
+				<article class="serviceBox lastBox">
+					<h3>Our Story</h3>
+					<figure>
+						<iframe width="300" height="190" src="https://www.youtube.com/embed/Z7Bfm6QQeEw?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+					</figure>
+				</article>
+			</section>
+			<p style="text-align:center;"><strong>Our service is the best in the Twin Ports area, with eco-friendly results and a satisfaction guarantee no one else can match.</strong><br>
+				<br><br><a class="button-link" href="services.html">CONTACT US</a></p><br>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer id="footer" class="clear">
+		<hr>
+		<p class="floatLeft"><br>&#8202; Copyright &copy; 2016 - Free Template | Developed by: Ritz Systems</p>
+		<p class="floatRight">
+			<a href="#" target="_blank"><img src="images/vimeo.png" alt="vimeo"></a>
+			<a href="#" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+			<a href="#" target="_blank"><img src="images/linkedIn.png" alt="linkedIn">&#8202;</a>
+		</p>
+	</footer>
+
+</body>
+
+</html>
